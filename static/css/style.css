@@ -1,0 +1,55 @@
+
+
+:root{
+    --monserrat:'Montserrat', sans-serif;
+}
+
+
+.container, .container-fluid{
+    font-family: var(--monserrat);
+}
+#main-nav{
+    background-color: #FEC410;
+    font-family: var(--monserrat);
+    font-size: 1.1rem;
+
+}
+
+body{
+    background-color: #333333;
+    color: white;
+}
+
+footer{
+    color: white;
+    font-family: var(--monserrat);
+}
+
+.profilepic{
+    max-height: 35vw;
+    min-height: 18rem;
+}
+
+#background{ 
+    position: relative;
+    height: 100%;
+    margin: 0;
+    
+}
+#background > img{
+    object-fit: cover;
+    filter: grayscale(85%);
+}
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(33, 49, 78, 0.5);
+    height: 100%;
+}
+
+#home{
+    padding-top: 42px;
+}
