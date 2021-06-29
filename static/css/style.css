@@ -21,11 +21,15 @@ body{
 }
 
 footer{
-    color: black;
+    color: white;
     font-family: var(--monserrat);
-    background-color: white;
+    background-color: #72A98F;
+    padding-top: 15rem;
 }
 
+footer img{
+    max-height: 3rem;
+}
 .profilepic{
     max-height: 35vw;
     min-height: 18rem;
