@@ -1,7 +1,7 @@
-
-
 :root{
     --monserrat:'Montserrat', sans-serif;
+    --yellow:#FEC410;
+    --gray: #333333;
 }
 
 
@@ -9,20 +9,21 @@
     font-family: var(--monserrat);
 }
 #main-nav{
-    background-color: #FEC410;
+    background-color: var(--yellow);
     font-family: var(--monserrat);
     font-size: 1.1rem;
 
 }
 
 body{
-    background-color: #333333;
     color: white;
+    background-color: var(--gray);
 }
 
 footer{
-    color: white;
+    color: black;
     font-family: var(--monserrat);
+    background-color: white;
 }
 
 .profilepic{
@@ -47,9 +48,52 @@ footer{
     left: 0;
     right: 0;
     background-color: rgba(33, 49, 78, 0.5);
-    height: 100%;
 }
 
 #home{
     padding-top: 42px;
+}
+
+.backend-icons img{
+    max-height: 5rem;
+
+}
+
+#aboutme{
+    color: white;
+    padding-top: 5rem;
+}
+
+#portfolio .card{
+    color: black;
+}
+
+.fa-arrow-down{
+    color: yellow;
+    font-size: 2rem;
+}
+
+#portfolio{
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 5rem;
+}
+
+.card img{
+    object-fit: cover;
+}
+
+.bg-warning, .bg-info{
+    color: black;
+}
+
+#skills{
+    background-color: #0B3954;
+    color: white;
+    padding-top: 5rem;
+}
+
+.list-icons img{
+    max-height: 4rem;
+    object-fit: cover;
 }
