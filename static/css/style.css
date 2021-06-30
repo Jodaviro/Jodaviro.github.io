@@ -99,6 +99,8 @@ footer img{
 
 #skills img{
     border-radius: 25%;
+    max-width: 4rem;
+    object-fit: cover;
 
 }
 
