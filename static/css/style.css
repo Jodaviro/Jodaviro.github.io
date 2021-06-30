@@ -60,7 +60,7 @@ footer img{
 
 .backend-icons img{
     max-height: 5rem;
-
+    background-color: white;
 }
 
 #aboutme{
@@ -95,6 +95,11 @@ footer img{
     background-color: #0B3954;
     color: white;
     padding-top: 5rem;
+}
+
+#skills img{
+    border-radius: 25%;
+
 }
 
 .list-icons img{
